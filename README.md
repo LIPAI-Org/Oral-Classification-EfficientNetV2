@@ -92,11 +92,11 @@ Cada modelo é composto por um **backbone** (responsável pela extração autom�
 
 Para cada arquitetura e dataset, três modos de treinamento foram avaliados:
 
-| Modo | Nome | Descrição |
-|------|------|-----------|
-| `FS` | From Scratch | Todos os pesos inicializados aleatoriamente; treinamento do zero sem conhecimento prévio |
+| Modo | Nome | Descrição                                                                                           |
+|------|------|-----------------------------------------------------------------------------------------------------|
+| `FS` | From Scratch | Todos os pesos inicializados aleatoriamente; treinamento do zero sem treinamento prévio             |
 | `PT-FC` | Pré-treinado + Backbone Congelado | Pesos pré-treinados carregados; backbone congelado; apenas a camada classificadora final é treinada |
-| `PT-ALL` | Pré-treinado + Fine-tuning Completo | Pesos pré-treinados carregados; todas as camadas — backbone e classificador — são treinadas |
+| `PT-ALL` | Pré-treinado + Fine-tuning Completo | Pesos pré-treinados carregados; todas as camadas — backbone e classificador — são treinadas         |
 
 ---
 
