@@ -31,7 +31,6 @@ Para garantir a reprodutibilidade, o projeto está preparado para rodar nativame
 - [Modos de Treinamento](#️-modos-de-treinamento)
 - [Estratégia de Data Augmentation](#-estratégia-de-data-augmentation)
 - [Desenho Experimental](#-desenho-experimental)
-- [Estrutura do Repositório](#-estrutura-do-repositório)
 - [Links e Downloads (Releases)](#-links-e-downloads-releases)
 - [Como Executar o Projeto](#-como-executar-o-projeto)
 - [Guia de Execução Passo a Passo](#-guia-de-execução-passo-a-passo)
@@ -158,19 +157,6 @@ Para mitigar o efeito da aleatoriedade, cada configuração é executada 3 vezes
 
 <br>
 
-## Estrutura do Repositório
-
-O código fonte e os recursos visuais estão organizados da seguinte forma:
-
-```text
-├── img/
-│   ├── help/             # Imagens do passo a passo para execução
-│   └── analitic/         # Gráficos e imagens para interpretação dos resultados
-├── notebooks/
-│   └── efficientnetv2-grad-cam-oral-histopathology.ipynb # Versão para Kaggle
-└── README.md
-```
-
 > [!WARNING]
 > **Nota sobre arquivos pesados:** Arquivos de dados e resultados volumosos não são armazenados diretamente no histórico do Git. Eles estão hospedados de forma segura na aba de **[Releases](https://github.com/LIPAI-Org/Oral-Classification-EfficientNetV2/releases/tag/v1.0.0)** deste repositório.
 
@@ -212,9 +198,9 @@ Siga o guia visual caso tenha dúvidas sobre como configurar o ambiente em cada 
 
 | Passo | Descrição | Visualização |
 | :---: | :--- | :---: |
-| **1** | Acesse o notebook pelo link e clique em "Copy & Edit" | ![Passo 1 Kaggle](img/help/PASSO%201%20KAGGLE.png) |
-| **2** | Verifique se o dataset `oral-dataset` está adicionado como input | ![Passo 2 Kaggle](img/help/PASSO%202%20KAGGLE.png) |
-| **3** | Execute todas as células sequencialmente | ![Passo 3 Kaggle](img/help/PASSO%203%20KAGGLE.png) |
+| **1** | Acesse o notebook pelo link e clique em "Copy & Edit" | ![Passo 1 Kaggle](help/img/PASSO%201%20KAGGLE.png) |
+| **2** | Verifique se o dataset `oral-dataset` está adicionado como input | ![Passo 2 Kaggle](help/img/PASSO%202%20KAGGLE.png) |
+| **3** | Execute todas as células sequencialmente | ![Passo 3 Kaggle](help/img/PASSO%203%20KAGGLE.png) |
 
 ---
 
